@@ -82,13 +82,17 @@ The project includes the following visualizations and analyses:
 
 ## 📁 Project Structure
 
-```text
 housing-prices-eda/
 │
-├── Housing.csv
+├── images/
+│   ├── area-vs-price.png
+│   ├── correlation-heatmap.png
+│   ├── price-correlation.png
+│   └── price-distribution.png
+│
 ├── TP2_EDA_Housing.ipynb
+├── Housing.csv
 └── README.md
-```
 
 ## 🚀 How to Run the Project
 
@@ -117,6 +121,31 @@ jupyter notebook TP2_EDA_Housing.ipynb
 ```
 
 Alternatively, upload the notebook to Google Colab and upload `Housing.csv` when prompted.
+## 📊 Project Visualizations
+
+### 1. Housing Price Distribution
+
+This histogram illustrates the distribution of housing prices.
+
+![Housing Price Distribution](images/price-distribution.png)
+
+### 2. Area vs. Price
+
+This scatter plot explores the relationship between property area and housing prices.
+
+![Area vs Price](images/area-vs-price.png)
+
+### 3. Correlation Heatmap
+
+This heatmap visualizes correlations between numerical variables.
+
+![Correlation Heatmap](images/correlation-heatmap.png)
+
+### 4. Features Correlated with Price
+
+This chart highlights the numerical features most strongly associated with housing prices.
+
+![Price Correlation](images/price-correlation.png)
 
 ## 📚 What I Learned
 
